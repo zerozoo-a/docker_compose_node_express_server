@@ -1,0 +1,36 @@
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.swp
+*.swo
+
+# 빌드 출력
+/dist
+/tmp
+/out
+/build
+*.log
+
+# 종속성 디렉토리
+/node_modules
+/bower_components
+/vendor/
+
+# 개인적인 민감한 정보나 설정 파일
+.env
+.secret
+
+# 패키지 잠금 파일은 프로젝트에 따라 포함할 수도 있고 포함하지 않을 수도 있습니다
+# package-lock.json
+# yarn.lock
+# composer.lock
+
+# 로컬 개발 DB
+*.sqlite
+*.db
